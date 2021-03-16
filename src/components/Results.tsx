@@ -32,6 +32,9 @@ const LineItem = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    @media (max-width: 900px) {
+        height: 140px;
+    }
 `;
 
 const AvatarContainer = styled.div`
@@ -40,6 +43,9 @@ const AvatarContainer = styled.div`
     display: flex;
     align-items: flex-start;
     background-color: #C4C4C4;
+    @media (max-width: 900px) {
+        align-items: center;
+    }
 `;
 
 const TextInfoContainer = styled.div`
@@ -53,6 +59,10 @@ const TextInfoContainer = styled.div`
 const Avatar = styled.img`
     height: 100%;
     width: auto;
+    @media (max-width: 900px) {
+        width: 100%;
+        height: auto;
+    }
 `;
 
 const Name = styled.span`
