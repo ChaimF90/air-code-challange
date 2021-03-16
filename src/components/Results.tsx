@@ -33,7 +33,8 @@ const LineItem = styled.div`
     justify-content: space-between;
     margin-bottom: 24px;
     @media (max-width: 900px) {
-        height: 140px;
+        height: 150px;
+        margin-bottom: 34px;
     }
 `;
 
@@ -60,7 +61,7 @@ const Avatar = styled.img`
     height: 100%;
     width: auto;
     @media (max-width: 900px) {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 `;
