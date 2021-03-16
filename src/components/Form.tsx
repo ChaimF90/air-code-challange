@@ -5,7 +5,7 @@ interface Props {
     filter: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const Container = styled.div`
+const Container = styled.form`
     display: flex;
     flex-direction: column;
     width: 40%;

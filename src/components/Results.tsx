@@ -128,7 +128,7 @@ function Results(props: Props) {
     if (props.loading) {
         return (
             <Container>
-                {[1, 2, 3, 4, 5, 6, 7, 8, 8, 10, 11, 12].map(renderLoadingState)}
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(renderLoadingState)}
             </Container>
         );
     }
