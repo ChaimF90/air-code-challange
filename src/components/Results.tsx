@@ -46,6 +46,7 @@ const AvatarContainer = styled.div`
     background-color: #C4C4C4;
     @media (max-width: 900px) {
         align-items: center;
+        justify-content: center;
     }
 `;
 
